@@ -2,22 +2,90 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <!--=== HTML Meta Tags ===-->
+    <title>Nifty</title>
+    <meta name="description" content="DESCRIPTION HERE!" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
+    <meta name="color-scheme" content="light" />
+
+    <!--=== Favicon ===-->
+    <link rel="shortcut icon" href="./public/pixelArt/starspin.gif" />
+
+    <!--=== CDN links ===-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--=== Stylesheet ===-->
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <div><a href="/">My Cooler Site</a></div>
-    </header>
-    <main>
-      <section>
-        <h1>Cooler Site</h1>
-        <p>hi it's me the guy you should hire!</p>
-      </section>
+    <main class="container sidebar-split">
+      <aside>
+        <nav>
+          <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/tech">Tech</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <article>
+        <section>
+          <h1>Nifty Blog</h1>
+          <p><em>Electronics and KiCad stuffs</em></p>
+          <hr />
+          <img
+            src="./public/images/doenst_get_it.webp"
+            alt="lolz"
+            class="float-right"
+            height="180"
+          />
+          <p>
+            Once upon a time there was a cardboard box. but it was not just any
+            box; it was a box full of arsenic. You can guess what happened from
+            here...
+          </p>
+          <br class="clearfix" />
+          <h2>Updates</h2>
+          <h3>11/28/2024</h3>
+          <ul>
+            <li>
+              Ate Too Much Arsenic
+              <ul>
+                <li>The box, let's just say it no longer has any arsenic...</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <footer>
+          <ul class="button-list">
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=19y8YTbvri8"
+                target="_blank"
+              >
+                <img
+                  src="./public/buttons/mikum.gif"
+                  alt="Miku Button"
+                  title="Miku!"
+                />
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </article>
     </main>
-    <footer>
-      <p>Created by Meer</p>
+    <footer class="container">
+      <div>&lt;/&gt; by Niftion</div>
+      <div>
+        <a href="https://github.com/Niftion/niftion.github.io">Source</a>
+      </div>
     </footer>
   </body>
 </html>
